@@ -1,6 +1,6 @@
 ---
 layout: post
-title:My frist one
+title: My frist one
 ---
 
 
