@@ -39,7 +39,7 @@ This problem has versions :
 
 1. $x_1+x_2+x_3+=11$
   
-  with ($x_1,x_2,x_3>0$)positive integers for $x_i$
+  with  $x_1,x_2,x_3>0$ positive integers for $x_i$
   
   then number of solutions ${n-1 \choose k-1}$
   
@@ -69,7 +69,7 @@ we have 10 gaps to choose from and 2 bars to puts
 
 ${10 \choose 2}$
 
-2. same problem where $x_1+x_2+x_3+=11$ but with with ($x_1,x_2,x_3\geq0$)non-negative integers for $x_i$
+2. same problem where $x_1+x_2+x_3+=11$ but with with $x_1,x_2,x_3\geq0$ non-negative integers for $x_i$
 
 so $x_i$ can be zero
 
@@ -102,9 +102,10 @@ so result = ${16+4-1 \choose 3}$-${4 \choose 1}{16-7+4-1 \choose 3}$+${4 \choose
 
 in general to calculate number of solutions
 
-$x_1+x_2+x_3+x_4+....+x_n=r$ and $0\leq x_i<l<r$
+$x_1+x_2+x_3+x_4+....+x_n=r$ and
+$0 \leq x_i< l < r$
 
-$\sum_{i=0}^{n}(-1)^i{n \choose i}{n+r-1-i(l+1) \choose n-1}$ (**)
+$\sum_{i=0}^{n}(-1)^i{n \choose i}{n+r-1-i(l+1) \choose n-1}$     (**)
 
 let's back to our problem above how to write code to solve it
 
