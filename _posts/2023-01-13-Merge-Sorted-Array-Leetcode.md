@@ -5,7 +5,6 @@ layout: post
 title: 13/1/2023 Merge sorted array leetcode
 
 ---
-
 # Number of integral solutions of the equation $x_1 + x_2 +…. + x_n = k$
 
 given n ,m , k
@@ -40,7 +39,7 @@ This problem has versions :
 
 1. $x_1+x_2+x_3+=11$
   
-  with $x_1,x_2,x_3>0$ positive integers for $x_i$
+  with ($x_1,x_2,x_3>0$)positive integers for $x_i$
   
   then number of solutions ${n-1 \choose k-1}$
   
@@ -104,7 +103,7 @@ so result = ${16+4-1 \choose 3}$-${4 \choose 1}{16-7+4-1 \choose 3}$+${4 \choose
 
 in general to calculate number of solutions
 
-$x_1+x_2+x_3+x_4+....+x_n=r$ and $0 \leq x_i< l < r$
+$x_1+x_2+x_3+x_4+....+x_n=r$ and $0\leq x_i<l<r$
 
 $\sum_{i=0}^{n}(-1)^i{n \choose i}{n+r-1-i(l+1) \choose n-1}$ (**)
 
@@ -142,7 +141,7 @@ we need some helper function to find (**)
   to find nCr using factorial function we need `(fact(n)%mod fact(n-r)^-1%mod fact(r)^-1%mod)`
   so need Fermat's little theorem to find inverse give that mod is prime
   
-  so $fact()^{m-2}=fact()^{-1} mod$
+  so $fact()^{m-2}=fact()^{-1} mod \ m$
   
   ```cpp
   ll ncr(int n , int r ) {
