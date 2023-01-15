@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 15/1/2023  Number of integral solutions of the equation $x_1 + x_2 +…. + x_n = k
+title: 15/1/2023 post2
 
 ---
 # Number of integral solutions of the equation $x_1 + x_2 +…. + x_n = k$
