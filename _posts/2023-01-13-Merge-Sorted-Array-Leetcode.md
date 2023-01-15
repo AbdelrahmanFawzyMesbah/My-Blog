@@ -53,7 +53,6 @@ This problem has versions :
   {* * * * * * * * * *}
   ```
   
-
 if we put our bars between stars
 
 ```
