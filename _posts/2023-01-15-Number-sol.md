@@ -1,3 +1,9 @@
+---
+
+layout: post
+title: 15/1/2023  Number of integral solutions of the equation $x_1 + x_2 +…. + x_n = k
+
+---
 # Number of integral solutions of the equation $x_1 + x_2 +…. + x_n = k$
 
 given n ,m , k
