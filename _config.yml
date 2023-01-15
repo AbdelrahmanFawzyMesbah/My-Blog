@@ -60,7 +60,6 @@ version: v1.2.0
 markdown: kramdown
 kramdown:
     math_engine: katex
-kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
